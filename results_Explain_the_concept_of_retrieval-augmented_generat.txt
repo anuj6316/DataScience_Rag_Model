@@ -1,0 +1,45 @@
+Query: Explain the concept of retrieval-augmented generation (RAG) and its benefits.
+
+Document number: 1
+In  addition  to  mean  average  precision,  another  metric  commonly  used  for  search systems is normalized discounted cumulative gain (nDCG), which is more nuanced in  that  the  relevance  of  documents is not binary (relevant versus not relevant) and one  document  can  be  labeled  as  more  relevant  than  another  in  the  test  suite  and scoring mechanism.
+
+## Retrieval-Augmented Generation (RAG)
+
+The  mass  adoption  of  LLMs  quickly  led  to  people  asking  them  questions  and expecting  factual  answers.  While  the  models  can  answer  some  questions  correctly, they  also  confidently  answer  lots  of  questions  incorrectly.  The  leading  method  the industry turned to remedy this behavior is RAG, described in the paper 'RetrievalAugmented Generation for Knowledge-Intensive NLP Tasks' (2020) 1 and illustrated in Figure 8-24.
+
+Document number: 2
+## An overview of advanced RAG
+
+The vanilla RAG framework we just presented doesn't address many fundamental aspects that impact the quality of the retrieval and answer generation, such as:
+
+- Are the retrieved documents relevant to the user's question?
+- Is the retrieved context enough to answer the user's question?
+- Is there any redundant information that only adds noise to the augmented prompt?
+- Does the latency of the retrieval step match our requirements?
+- What do we do if we can't generate a valid answer using the retrieved information?
+
+Document number: 3
+## Project Time: Retrieval-Augmented Generation
+
+LLMs can use only  information  based  on  their  context  and  the  data  used  to  train them. If you want to ask an LLM for information about a specific topic, it will know the answer only if it is part of its data. For example, if you try to ask Llama about new movies, it will struggle to provide accurate information.
+
+Retrieval-augmented generation (RAG) is a technique in which the model can access information (e.g., paragraphs or documents) stored somewhere. With RAG, the LLM uses  both  the  user  input  and  the  stored  information  to  generate  a  response.  This approach is powerful as it allows the model to access a large amount of information, which makes it easier to update than to retrain the model.
+
+Document number: 4
+<!-- image -->
+
+## 4
+
+## RAG Feature Pipeline
+
+Retrieval-augmented generation ( RAG ) is fundamental in most generative AI applications. RAG's core responsibility is to inject custom data into the large language model ( LLM ) to perform a given action (e.g., summarize, reformulate, and extract the injected data). You often want to use the LLM on data it wasn't trained on (e.g., private or new data). As fine-tuning an LLM is a highly costly operation, RAG is a compelling strategy that bypasses the need for constant fine-tuning to access that new data.
+
+Document number: 5
+- Post-retrieval : This stage mainly targets different ways to filter out noise from the retrieved documents and compress the prompt before feeding it to an LLM for answer generation.
+
+Figure 4.5: The three stages of advanced RAG
+
+<!-- image -->
+
+This section is not meant to be an exhaustive list of all the advanced RAG methods available. The goal is to build an intuition about what can be optimized. We will use only examples based on text data, but the principles of advanced RAG remain the same regardless of the data category. Now, let's zoom in on all three components.
+

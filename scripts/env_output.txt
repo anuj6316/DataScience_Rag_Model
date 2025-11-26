@@ -1,0 +1,2 @@
+Hello from python
+/home/anuj/DataScience_Rag_Model/venv/bin/python

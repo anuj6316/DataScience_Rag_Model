@@ -1,0 +1,35 @@
+Query: How does the transformer architecture differ from recurrent neural networks?
+
+Document number: 1
+- The transformer is a neural network architecture proposed in 2017 in a groundbreaking paper called ' Attention Is All You Need', published by a team of Google researchers. In just a few years it swept across the field, crushing previous architectures  that  were  typically  based  on  recurrent  neural  networks  (RNNs).  The Transformer architecture is excellent at capturing patterns in long sequences of data and dealing with huge datasets-so much so that its use is now extending well beyond NLP, for example to image processing tasks.
+
+Document number: 2
+The transformer architecture also utilizes an attention mechanism, but unlike the attention-based RNN, it solely relies on the self-attention mechanism and does not include the recurrent process found in the RNN. In other words, a transformer model processes the whole input sequence all at once instead of reading and processing the sequence one element at a time. In the next section, we will introduce a basic form of the self-attention mechanism before we discuss the transformer architecture in more detail in the following section.
+
+## Introducing the self-attention mechanism
+
+In the previous section, we saw that attention mechanisms can help RNNs with remembering context when working with long sequences. As we will see in the next section, we can have an architecture entirely based on attention, without the recurrent parts of an RNN. This attention-based architecture is known as transformer , and we will discuss it in more detail later.
+
+Document number: 3
+The  transformer  architecture  addresses  both  problems  with  the  attention  mechanism. The attention mechanism allows the model to weigh the importance of different input tokens when generating each output token. This is like generating answers by  referencing  any  page  in  the  book.  A  simplified  visualization  of  the  transformer architecture is shown in the bottom half of Figure 2-4.
+
+6 RNNs are especially prone to vanishing and exploding gradients due to their recursive structure. Gradients must be propagated through many steps, and if they are small, repeated multiplication causes them to shrink toward zero, making it difficult for the model to learn. Conversely, if the gradients are large, they grow exponentially with each step, leading to instability in the learning process.
+
+Document number: 4
+## Transformer Encoder-Decoders
+
+A landmark 2017 paper titled 'Attention Is All You Need' changed the way data scientists approach NMT and other neural text processing tasks. It proposed a better way to perform sequence-to-sequence processing based on  transformer models that eschew recurrent layers and use attention mechanisms to model the context in which words are used. Today transformer models have almost entirely replaced LSTM-based models.
+
+Figure 13-5 is adapted from an image in the aforementioned paper. On the left is the encoder, which takes text sequences as input and generates dense vector representations of those sequences. On the right is the decoder, which transforms dense vector representations of input sequences into output sequences. At a high level, a transformer model uses the same encoder-decoder architecture as an LSTM-based model. The difference lies in how it does the encoding and decoding.
+
+Document number: 5
+<!-- image -->
+
+While the attention mechanism is often associated with the transformer model, it was introduced three years before the transformer paper. The attention mechanism can also be used with other architectures. Google used the attention mechanism with their seq2seq architecture  in  2016  for  their  GNMT  (Google  Neural  Machine Translation) model. However, it wasn't until the transformer paper showed that the attention mechanism could be used without RNNs that it took off. 7
+
+The transformer architecture dispenses with RNNs entirely. With transformers, the input tokens can be processed in parallel, significantly speeding up input processing. While the  transformer  removes  the  sequential  input  bottleneck,  transformer-based autoregressive language models still have the sequential output bottleneck.
+
+Inference for transformer-based language models, therefore, consists of two steps:
+
+Prefill
+

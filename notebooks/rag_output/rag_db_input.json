@@ -1,0 +1,103 @@
+[
+  {
+    "source_file": "PDF document for PF Chatbot.pdf",
+    "page_number": 1,
+    "text_content": "## Introduction\n\n- An Analytics COE of an organization helps to drive and accelerate the design and execution of Analytics &amp; AI capabilities to showcase measurable value and business impact. It also enables streamlined delivery of Analytics capabilities to conceptualize, build, and deliver robust Analytics products to meet the needs of the business.\n- ABC Corp 's Analytics Center of Excellence (ACOE) drives innovation in data management, analysis and reporting. Its overarching goal is to enable data-driven decision making, focus on time-to-value, and maximize benefits that various platforms, knowledge and solutions can bring.\n- Building a mature data and analytics setup is a necessary step to achieve the goals of business. Leveraging data as a strategic asset will increase the effectiveness, facilitate oversight, and promote transparency.\n\n<!-- image -->\n\n<!-- image -->",
+    "diagram_images": [
+      "rag_output/PDF document for PF Chatbot_p1_diag0.png",
+      "rag_output/PDF document for PF Chatbot_p1_diag1.png"
+    ],
+    "full_page_image": "rag_output/PDF document for PF Chatbot_full_p1.png",
+    "has_code": false
+  },
+  {
+    "source_file": "PDF document for PF Chatbot.pdf",
+    "page_number": 2,
+    "text_content": "## ACOE Governance Structure\n\n<!-- image -->\n\n<!-- image -->\n\n<!-- image -->\n\nGovernance structure aims to provide stakeholders across the various teams at ABC Corp with program activity transparency. It is designed to increase program operating dynamics and ensure active participation in program/ project decision-making processes. Team members are empowered to take ownership for the project and understand their responsibilities and accountabilities.\n\n<!-- image -->\n\nRamya",
+    "diagram_images": [
+      "rag_output/PDF document for PF Chatbot_p2_diag2.png",
+      "rag_output/PDF document for PF Chatbot_p2_diag3.png",
+      "rag_output/PDF document for PF Chatbot_p2_diag4.png",
+      "rag_output/PDF document for PF Chatbot_p2_diag5.png"
+    ],
+    "full_page_image": "rag_output/PDF document for PF Chatbot_full_p2.png",
+    "has_code": false
+  },
+  {
+    "source_file": "PDF document for PF Chatbot.pdf",
+    "page_number": 3,
+    "text_content": "## ACOE SPOC Details\n\n<!-- image -->\n\nTrack level leads\n\nExecution Team\n\n- Ramu\n- Raju\n- Rishi\n- Vishi\n- Shashi\n- Deepak\n- Sanju\n- Salman\n- Shambhavi\n- Shailu\n\n## ABC\n\n- Madhu\n- Madhav\n- Manisha\n- Justin\n- Mahesh\n- Suresh\n- Rajesh\n- Vanita\n- Rajitha\n- Simha\n- Legend\n- Akhanda\n- Rithu\n- Rishav\n\n## CYZ",
+    "diagram_images": [
+      "rag_output/PDF document for PF Chatbot_p3_diag6.png"
+    ],
+    "full_page_image": "rag_output/PDF document for PF Chatbot_full_p3.png",
+    "has_code": false
+  },
+  {
+    "source_file": "PDF document for PF Chatbot.pdf",
+    "page_number": 4,
+    "text_content": "## Intake Management and Demand Prioritization\n\nTechnical leads\n\nBusiness Process Owners\n\n<!-- image -->\n\nApplication/Product Lead\n\n## Prioritize &amp; Plan\n\nMaster DemandTracker is created based on Enterprise Portfolio  Backlog grooming\n\n-\n\n- Prioritization key  factors\n- Business  value, complexity, risk and opportunity etc.\n- LeverageMoSCoW model (Must Have, ShouldHave,Could Have, Won't Have)\n- Evaluate the Cost of Delay to expedite demandswithinhigh priority\n\n<!-- image -->\n\n<!-- image -->\n\nGovernance Lead\n\nApplication and Platform Team\n\n## Action &amp; Execution\n\n<!-- image -->\n\nDemand exceeds capacity\n\n- Defer projects/enhancementsto future releases\n- Spin up additionalPODS to address demand\n- Aggregatesimilarchanges / enhancementsand 'spin off' as an incremental project\n\n## Capacity is available\n\nUndertakesone or more of the following initiatives: Work on optimizations and innovations\n\n- Accelerate changes / enhancementsplanned for future periods\n\n## Temporary spike in demand\n\n- Temporarily reduced optimization or enhancement, support activities where needed\n- If additional temporary capacity is required, resources can be added\n\n<!-- image -->\n\n<!-- image -->\n\n<!-- image -->",
+    "diagram_images": [
+      "rag_output/PDF document for PF Chatbot_p4_diag7.png",
+      "rag_output/PDF document for PF Chatbot_p4_diag8.png",
+      "rag_output/PDF document for PF Chatbot_p4_diag9.png",
+      "rag_output/PDF document for PF Chatbot_p4_diag10.png",
+      "rag_output/PDF document for PF Chatbot_p4_diag11.png",
+      "rag_output/PDF document for PF Chatbot_p4_diag12.png",
+      "rag_output/PDF document for PF Chatbot_p4_diag13.png"
+    ],
+    "full_page_image": "rag_output/PDF document for PF Chatbot_full_p4.png",
+    "has_code": false
+  },
+  {
+    "source_file": "PDF document for PF Chatbot.pdf",
+    "page_number": 5,
+    "text_content": "## Change Request Management -Process Flow\n\n<!-- image -->",
+    "diagram_images": [
+      "rag_output/PDF document for PF Chatbot_p5_diag14.png"
+    ],
+    "full_page_image": "rag_output/PDF document for PF Chatbot_full_p5.png",
+    "has_code": false
+  },
+  {
+    "source_file": "PDF document for PF Chatbot.pdf",
+    "page_number": 6,
+    "text_content": "## New Request Management -Process Set-Up\n\n<!-- image -->\n\n## Request Submission\n\n- Business teams (lubes, LIG, Application teams, etc..) submits new project via email with supporting documents or attachments to Sudhakar sir.\n\n## Preliminary Review\n\n- RRR along with Business Analyst and Functional team gathers requirements to assess the feasibility, alignment and priority\n- Request is approved and priority assigned.\n\n## Team Engagement\n\n- Business Team connects with client to refine scope and expectations.\n- Establishes clarity before documentation begins.\n\n## Documentation &amp; Estimation\n\n- Business Analyst prepares BRD/SDD (requirements, As-Is &amp; To-Be flows).\n- Tech Team provides a high-level effort and time estimate.\n\n## Client Validation &amp; Approval\n\n- Business team reviews BRD/SDD and estimation.\n- Provides signoff to move into execution.\n\n## Delivery Phases\n\n- Structured execution in stages:\n- Development (DEV) -Build/configure solution\n- UAT -Client validates solution\n- Implementation -Rollout into production",
+    "diagram_images": [
+      "rag_output/PDF document for PF Chatbot_p6_diag15.png"
+    ],
+    "full_page_image": "rag_output/PDF document for PF Chatbot_full_p6.png",
+    "has_code": false
+  },
+  {
+    "source_file": "PDF document for PF Chatbot.pdf",
+    "page_number": 7,
+    "text_content": "## AI Enabled Chatbot -Features and Benefits\n\n<!-- image -->\n\n## KEY BENEFITS\n\n## Enhanced Experience\n\nEnd user is provided  with a unique experience and ease of usage as the chatbot provides conversational experience\n\n## Scalable &amp; efficient\n\nThe chatbot is  scalable to other use cases such as tender doc / content retrieval, Summarization of large documents, etc..\n\n## Ease of Integration\n\nIn addition to analyzing and generating knowledge, agent systems can use tools and communicate across a broader digital ecosystem\n\n## Reduced manual effort\n\nBy delivering actionable insights quickly, Agentic AI chatbot  enables adaption to changes in preferences and human dynamics, ultimately leading to cost reductions\n\n## Self-learning\n\nBy tapping short- and long-term contextual memory resources that are often unavailable in a pre-trained language model, AI agents can rapidly improve their output quality over time.",
+    "diagram_images": [
+      "rag_output/PDF document for PF Chatbot_p7_diag16.png"
+    ],
+    "full_page_image": "rag_output/PDF document for PF Chatbot_full_p7.png",
+    "has_code": false
+  },
+  {
+    "source_file": "PDF document for PF Chatbot.pdf",
+    "page_number": 8,
+    "text_content": "## Data Quality Initiative -Customized Hybrid Solution (1/2)\n\n## Gen AI\n\nLeverage Gen AI -based solutions for automated IT data quality checks, enabling efficient anomaly detection and rule discovery.\n\n## KEY BENEFITS\n\n## Comprehensive coverage\n\nIT, Business, and Contextual Data Quality addressed through specialized tools.\n\n## Scalable &amp; efficient\n\n## DQX\n\nUtilize Databricks DQX for Business and Contextual Data Quality, ensuring that domain-specific rules, validations, and contextual relevance are addressed effectively.\n\n## Continuous improvement\n\nGen AI accelerates detection of anomalies, while DQX enforces business and context rules systematically\n\nHybrid approach allows iterative enhancements and adaptive quality controls.\n\n<!-- image -->\n\n+\n\n=\n\n## ABC Corp Hybrid DQ\n\n<!-- image -->\n\nCombine both approaches into a hybrid framework , bringing together automation, scalability, and business-aligned validation in a single ecosystem.\n\n## Reduced manual effort\n\n## Single view of data quality\n\nAutomation reduces dependency on manual rule creation and monitoring, freeing resources for highervalue tasks.\n\nIntegration of both solutions provides unified reporting and dashboards for decision-making.",
+    "diagram_images": [
+      "rag_output/PDF document for PF Chatbot_p8_diag17.png",
+      "rag_output/PDF document for PF Chatbot_p8_diag18.png"
+    ],
+    "full_page_image": "rag_output/PDF document for PF Chatbot_full_p8.png",
+    "has_code": false
+  },
+  {
+    "source_file": "PDF document for PF Chatbot.pdf",
+    "page_number": 9,
+    "text_content": "## Deloitte.\n\n## Thank You\n\nDeloitte refers to one or more of Deloitte Touche Tohmatsu Limited, a UK private company limited by guarantee ('DTTL'), its n etwork of member firms, and their related entities. DTTL and each of its member firms are legally separate and independent entities. DTTL (also referred to as 'Deloitt e G lobal') does not provide services to clients. Please see www.deloitte.com/about for a more detailed description of DTTL and its member firms.\n\nThis material has been prepared by Deloitte Touche Tohmatsu India LLP ('DTTILLP'), a member of Deloitte Touche Tohmatsu Limit ed, on a specific request from you and contains proprietary and confidential information. This material may contain information sourced from publicly available information or other third party sources. DTTILLP does not independently verify any such sources and is not responsible for any loss whatsoever caused due to reliance placed on information sourced from such sources. The information contained in this material is intended solely for you. Any disclosure, copying or further distribution of this material or its contents is strictly prohibited.\n\nNothing in this material creates any contractual relationship between DTTILLP and you. Any mutually binding legal obligations or rights may only be created between you and DTTILLP upon execution of a legally binding contract. By using this material and any information contained in it, the user accepts this entire notice and terms of use.\n\n\u00a92025 Deloitte Touche Tohmatsu India LLP. Member of Deloitte Touche Tohmatsu Limited\n\n<!-- image -->",
+    "diagram_images": [
+      "rag_output/PDF document for PF Chatbot_p9_diag19.png"
+    ],
+    "full_page_image": "rag_output/PDF document for PF Chatbot_full_p9.png",
+    "has_code": false
+  }
+]

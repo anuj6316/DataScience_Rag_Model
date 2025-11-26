@@ -1,0 +1,5 @@
+{
+  "name": "BeeBot AI",
+  "description": "A modern, high-performance chat interface designed for the BeeBot AI backend, featuring real-time WebSocket communication, metric visualization, and a sleek dark-themed UI.",
+  "requestFramePermissions": []
+}

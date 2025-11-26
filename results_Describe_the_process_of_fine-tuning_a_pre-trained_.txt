@@ -1,0 +1,25 @@
+Query: Describe the process of fine-tuning a pre-trained model on a custom dataset.
+
+Document number: 1
+Fine-tuning
+
+The second step, fine-tuning or sometimes post-training , involves using the previously trained model and further training it on a narrower task. This allows the LLM to adapt to specific tasks or to exhibit desired behavior. For example, we could fine-tune a base model to perform well on a classification task or to follow instructions. It saves massive amounts of resources because the pretraining phase is  quite  costly  and  generally  requires  data  and  computing  resources  that  are out  of  the  reach  of  most  people  and  organizations.  For  instance,  Llama  2  has been  trained  on  a  dataset  containing  2  trillion  tokens. 14 Imagine  the  compute necessary to create that model! In Chapter 12, we will go over several methods for fine-tuning foundation models on your dataset.
+
+Document number: 2
+```
+
+Supervised fine-tuning is a method used to enhance the performance of pre-trained language models by utilizing labeled data. This technique involves taking a pre-trained model and refining it on a specific task, such as content creation or customer service. By providing the model with relevant data and guidance, it can learn to generate outputs that align more closely with the desired outcomes. This approach allows for the creation of more specialized models that can tackle complex tasks with greater accuracy and efficiency.
+
+Document number: 3
+Training data
+
+The  performance  of  your  fine-tuned  model  correlates  with  how  closely  the training  data  of  the  base  model  aligns  with  your  inference  data.  For  instance, fine-tuning  a  model  to  generate  code  in  your  codebase  style  is  more  effective when starting with a model pretrained on code. Consider the specificity of data
+
+Document number: 4
+The first instinct should be to explore the dataset. As shown in the following code, the  dataset  contains  two  columns:  one  with  the  text  and  one  with  the  label.  The dataset  provides  120,000  training  samples,  more  than  enough  data  to  fine-tune  a model.  Fine-tuning  requires  very  little  data  compared  to  pretraining  a  model,  and just using a few thousand examples should be enough to get a good baseline model:
+
+Document number: 5
+This can also help identify any contamination issues, where the model might have been finetuned on data that is too close to a test set. For instance, improving the MMLU score of a base model by 10 points during the fine-tuning phase is unlikely. This is a sign that the instruction data might be contaminated.
+
+In addition to these pre-trained evaluations, fine-tuned models also have their own benchmarks. Here, we use the term 'fine-tuned model' to designate a model that has been trained with supervised fine-tuning ( SFT ) and preference alignment. These benchmarks target capabilities connected to the ability of fine-tuned models to understand and answer questions. In particular, they test instruction-following, multi-turn conversation, and agentic skills:
+

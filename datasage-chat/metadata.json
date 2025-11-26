@@ -1,0 +1,5 @@
+{
+  "name": "DataSage Chat",
+  "description": "A modern, glassmorphic chat interface connected to a RAG FastAPI backend, featuring real-time data visualization and context-aware responses.",
+  "requestFramePermissions": []
+}

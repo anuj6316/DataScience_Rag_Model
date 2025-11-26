@@ -1,0 +1,35 @@
+Query: quickstart code for intializing the gemini chat model
+
+Document number: 1
+The existence of so many adaptation techniques also makes evaluation harder. A system  that  performs  poorly  with  one  technique  might  perform  much  better  with another. When Google launched Gemini in December 2023, they claimed that Gemini is better than ChatGPT in the MMLU benchmark (Hendrycks et al., 2020). Google had evaluated Gemini using a prompt engineering technique called CoT@32. In this  technique, Gemini was shown 32 examples, while ChatGPT was shown only 5 examples.  When  both  were  shown  five  examples,  ChatGPT  performed  better,  as shown in Table 1-5.
+
+Document number: 2
+Now create a project directory on your computer and cd to it. Then execute the following command:
+
+xlwings quickstart sentiment
+
+Figure 7-2. Configuring Excel to trust VBA add-ins
+
+<!-- image -->
+
+This command creates a subdirectory named  sentiment  in the current directory and initializes it with a pair of files: a spreadsheet named  sentiment.xlsm  and a Python file named sentiment.py . It is the latter of these in which you will write a UDF that analyzes text for sentiment.
+
+Next, copy  sentiment.pkl  into the  sentiment  directory. (If you didn't generate that file earlier, run the code in Example 7-1 in a Jupyter notebook to generate it now.) Then open  sentiment.py  in your favorite text editor and replace its contents with the following code. This code loads the sentiment analysis model from the  .pkl  file and stores a reference to the model in the variable named model . Then it
+
+Document number: 3
+innotations, hundreds of ML applications followed and now quietly power hundreds of products and features that you use regularly: voice prompts, automatic translation, image search, product recommendations, and many more. And finally came ChatGPT, Gemini (formerly Bard), Claude, Perplexity, and many other chatbots: AI is no longer just powering services in the background, it is the service itself.
+
+Document number: 4
+```
+
+The dialogues look like what you would expect from a chat via SMS or WhatsApp, including emojis and placeholders for GIFs. The dialogue field contains the full text and the summary the summarized dialogue. Could a model that was fine-tuned on the CNN/DailyMail dataset deal with that? Let's find out!
+
+Document number: 5
+## Why not use ChatGPT (or another similar chatbot)?
+
+<!-- image -->
+
+This subsection will refer to using ChatGPT (or another similar chatbot) just in the context of generating personalized content.
+
+We have already provided the answer. ChatGPT is not personalized to your writing style and voice. Instead, it is very generic, unarticulated, and wordy. Maintaining an original voice is critical for long-term success when building your brand. Thus, directly using ChatGPT or Gemini will not yield the most optimal results. Even if you are OK with sharing impersonalized content, mindlessly using ChatGPT can result in the following:
+

@@ -1,0 +1,20 @@
+Query: Compare and contrast zero-shot learning with few-shot learning techniques.
+
+Document number: 1
+| in-context learning: zero-shot and few- shot, 213-215                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | finetuning and, 316-319
+
+Document number: 2
+Zero-shot learning is a particular form of transfer learning. The same principle explains how one can perform multi-modal learning , capturing a representation
+
+Document number: 3
+```
+
+Zero-data learning, see zero-shot learning Zero-shot learning, 534
+
+Document number: 4
+As an example of a zero-shot learning setting, consider the problem of having a learner read a large collection of text and then solve object recognition problems.
+
+Document number: 5
+|                                                                                                                  | Zero-Shot Generalization                                                                                         | Zero-Shot Generalization                                                                                         | 28   |
+|                                                                                                                  | Few-Shot Generalization                                                                                          | Few-Shot Generalization                                                                                          | 30   |
+

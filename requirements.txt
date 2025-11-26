@@ -1,0 +1,30 @@
+# Document loaders
+pymupdf
+unstructured[md]
+docx2txt
+tqdm
+dotenv
+# langchain
+langchain
+langchain-core
+langchain-community
+langchain-google-genai
+langchain-text-splitters
+langchain-openai
+langchain-astradb
+
+# embedding model
+google-genai
+
+# vector db
+# qdrant-client
+langchain-qdrant
+astrapy
+fastapi
+uvicorn
+openai
+
+# flash
+langchain-huggingface
+sentence-transformers
+rank-bm25
